@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Frequently Asked Questions</title>
+  <meta name="author" content="Gabrielle Homola">
+  <link rel="shortcut icon" href="http://spyrestudios.com/favicon.ico">
+  <link rel="icon" href="http://spyrestudios.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="w">
+    <h1>Frequently Asked Questions</h1>
+    <p>Option number 2: A list of ten frequently asked questions! By, Gabrielle Homola</p>
+    
+    <h2>Website Questions</h2>
+    <div class="q">
+      <h3 class="qhead"><a href="#q01">How do I log into my account?</a></h3>
+      <div class="answer" id="q01"><p>You can log into your account by entering your chosen username and password into the selected boxes. </p></div>
+    </div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q02">How do I comment on posts that I like?</a></h3>
+      <div class="answer" id="q02"><p>You can voice your opinion on posts by writing in the designated box usually following the post in question. </p></div>
+    </div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q03">Can I interact with others on this Website?</a></h3>
+      <div class="answer" id="q03"><p>Yes you can by commenting on there posts or becoming involved in what they are interested on the website. </p></div>
+    </div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q04">How Does the Search Feature Work?</a></h3>
+      <div class="answer" id="q04"><p>You can search anything you like by typing your question into the designated search box. Your next step would be to click search and await the results.</p>
+      
+      <p>The search results will depend and rely on how you asked your question or what you typed into the search box. </p></div>
+    </div>
+    
+		<h2>User Accounts</h2>
+		<div class="q">
+		  <h3 class="qhead"><a href="#q05">Can I have more than one user account on a website?</a></h3>
+		  <div class="answer" id="q05"><p>Nope you are limited to one account. </p></div>
+		</div>
+		
+		<div class="q">
+		  <h3 class="qhead"><a href="#q06">How Do I change my user profile photo?</a></h3>
+		  <div class="answer" id="q06"><p>Upload a photo of your choosing or use on of the default options that we give to you. </p></div>
+		</div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q07">Is there a way I can delete my account with this website if I choose to?</a></h3>
+      <div class="answer" id="q07"><p>Yes, at any moment you can delete your account. </p>
+      
+      <p>This website is for your benefit. </p>
+      
+     </div>
+    </div>
+    
+    
+    <h2>Support and Contact</h2>
+    <div class="q">
+      <h3 class="qhead"><a href="#q08">How can I get in touch with Staff Support?</a></h3>
+      <div class="answer" id="q08"><p>You can get in touch with staff at any moment through email or phone.</p></div>
+    </div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q09">Will I be able to delete all my account data?</a></h3>
+      <div class="answer" id="q09"><p>As mentioned earlier you can delete your account whenever you need to.</p>
+      
+      <p>All of your personal data will be deleted but there will be a record that you once had an account with this website.</p></div>
+    </div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q10">Is there support 24 hours a day?</a></h3>
+      <div class="answer" id="q10"><p>Yes we are able to answer questions twenty four hours seven days a week.</p></div>
+    </div>
+    
+    <div class="q">
+      <h3 class="qhead"><a href="#q11"></a></h3>
+      <div class="answer" id="q11"><p></p></div>
+    </div>
+  </div><!-- end #w -->
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".qhead a").on("click", function(e){
+    e.preventDefault();
+    var href = $(this).attr("href");
+    
+    $(href).fadeToggle(450);
+  });
+});
+</script>
+</body>
+</html>
